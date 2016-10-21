@@ -60,6 +60,10 @@ p {
   clear: both;
 }
 
+h3 {
+  font-size: 30px;
+  color: #444;
+}
 /* HEADER */
 
 header {
@@ -172,6 +176,7 @@ header nav ul li a {
 
 #possibilities article:first-child {
   margin-right: 20px;
+  margin-left: 160px;
 }
 
 .overlay {
@@ -207,4 +212,54 @@ article h4 {
   text-align: center;
 }
 
+/* CONTACT */
 
+#contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#contact h3 {
+  width: 400px;
+  text-transform: uppercase;
+  margin:0 auto 20px auto;
+  border-bottom: 1px solid #02B8DD;
+}
+
+form {
+  margin: 60px 0 20px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #777;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+}
+
+.button-3 {
+  color: #fff;
+  font-size: 20px;
+  padding: 11px;
+  background-color: #02B8DD;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.button-3:hover {
+  background-color: #02B8;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #02B8;
+  color: #fff;
+}
