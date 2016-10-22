@@ -263,3 +263,23 @@ input[type="submit"] {
   background-color: #02B8;
   color: #fff;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #444;
+  height: 260px;
+}
+
+footer h1 {
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+  color: #777;
+}
